@@ -11,11 +11,17 @@
 2. Used the build command to build the image with a name matching the private Docker Hub repository I just created, using a dynamic tag generated from the date command.    
 
 <img width="856" height="280" alt="2" src="https://github.com/user-attachments/assets/f20358a4-f73b-4b12-abf3-2270c55edb61" />
-<img width="854" height="120" alt="Screenshot_4" src="https://github.com/user-attachments/assets/ee1dcd6d-e562-404e-ba44-285ceee7346b" /> <br /> <br />
+<img width="854" height="120" alt="Screenshot_4" src="https://github.com/user-attachments/assets/ee1dcd6d-e562-404e-ba44-285ceee7346b" /> 
+
+Command Used: `docker build -t anasmo1/pr:$(date +%Y%m%d-%H%M%S) .`
+<br /> <br />
 
 
 3. Pushed the image to the private Docker Hub repository and confirmed that it exists. <br />
-<img width="1592" height="516" alt="Screenshot_5" src="https://github.com/user-attachments/assets/0e1a955c-d904-4e87-a382-06dc2ec05cbf" />  <br /> <br />
+<img width="1592" height="516" alt="Screenshot_5" src="https://github.com/user-attachments/assets/0e1a955c-d904-4e87-a382-06dc2ec05cbf" />
+
+Command Used: `docker push anasmo1/pr:20260105-230421`
+<br /> <br />
 
 
 * Docker - Networking Task
