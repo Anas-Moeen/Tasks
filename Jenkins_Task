@@ -1,7 +1,0 @@
-# Jenkins Task
-
-* ## Deploy jenkins on a server baremetal way (not using docker).<br /> <br /><br />
-
-
-1. installed jenkins and moved forward with the steps tell reached the Unlock Jenkins step and extracted the password as below:<br />
-
